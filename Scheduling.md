@@ -40,9 +40,9 @@ The scheduler will take process B first because the estimate time is shorter.
       else the scheduler waits till a mouse button is clicked).      
 
 	- Why is it important for the scheduler to distinguish between CPU-bound and I/O-bound processes?
-  
-  CPU bound processes have no user interaction. They need high quanta but low priority.
-  And I/O-bound processes have a high user interaction. They need low quanta but high priority.      
+
+    CPU bound processes have no user interaction. They need high quanta but low priority.
+    And I/O-bound processes have a high user interaction. They need low quanta but high priority.      
 ******
 
 4. **Real Time Schedulable**
