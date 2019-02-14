@@ -33,12 +33,14 @@ The scheduler will take process B first because the estimate time is shorter.
 ******
 
 3. **CPU-bound and I/O-bound Processes**
-	- Explain in a few words the terms CPU-bound and I/O-bound processes.  
+	- Explain in a few words the terms CPU-bound and I/O-bound processes.
+
   I/O-bound processes need low quanta but high priority
   (if the user clicks a mouse button then a process have to start immediately
   else the scheduler waits till a mouse button is clicked).      
 
-	- Why is it important for the scheduler to distinguish between CPU-bound and I/O-bound processes?  
+	- Why is it important for the scheduler to distinguish between CPU-bound and I/O-bound processes?
+   
   CPU bound processes have no user interaction. They need high quanta but low priority.
   And I/O-bound processes have a high user interaction. They need low quanta but high priority.      
 ******
